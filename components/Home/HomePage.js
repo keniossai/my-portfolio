@@ -12,7 +12,7 @@ export default class HomePage extends Component {
       <Landing>
         <Section>
             <Sub>
-                Fullstack Developer
+                Fullstack Developer | UI/UX-Designer
             </Sub>
             <LandingMain>
                 <AnimatedText 

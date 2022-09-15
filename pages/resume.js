@@ -17,7 +17,7 @@ export default function Resume() {
 							I am a Solution-driven Developer, adept at contributing to a highly collaborative work environment, finding solutions, and determining customer satisfaction. My core competencies lie in developing consumer-focused web applications using, JavaScript, ReactJs, NextJs, and Laravel. Built products for application users for over 5+ years, meeting the highest standards for web/mobile app development, user experience, best practices, and speed. Designed and developed web applications across multiple APIs, third-party integrations, and databases. Assuring high code quality through unit tests and adherence to software development best practices like Clean Code, SOLID and code reviews.
 							</p>
 							<p>
-							I've also been a part of different teams, both on-site and remote acting in the lead and member capacities. My vast experience has equipped me with the ability to be culturally aware of diverse communities, both technical and soft skills like communication, teamwork, and adaptability.
+							I&apos;ve also been a part of different teams, both on-site and remote acting in the lead and member capacities. My vast experience has equipped me with the ability to be culturally aware of diverse communities, both technical and soft skills like communication, teamwork, and adaptability.
 							</p>
 						</Desc>
 						<a
@@ -106,7 +106,7 @@ export default function Resume() {
 											I designed, developed, and tested UI for web applications
 										</li>
 										<li>
-											Database integration using MySQL with query optimisation skills
+											Database integration using MySQL with query optimization skills
 										</li>
 									</ul>
 								</div>
@@ -147,10 +147,10 @@ export default function Resume() {
 									<div className='year'>Jan 2022 - April 2022</div>
 									<ul className='stacks'>
 										<li>
-											I engaged the Management Team to prioritize needs and strategized for the Lagos State Employment Trust Fund (LSETF) Project.
+											I engaged the Management Team to prioritize needs and strategize for the Lagos State Employment Trust Fund (LSETF) Project.
 										</li>
 										<li>
-											I designed and developed the LSETF platform in readiness for the summit which increased the platform's visibility exponentially.
+											I designed and developed the LSETF platform in readiness for the summit which increased the platform&apos;s visibility exponentially.
 										</li>
 										<li>
 											Saddled with the responsibility of Overseeing the Smooth running operation of the LSETF platform throughout the duration of the summit, recording a 100% success rate.
@@ -184,7 +184,7 @@ export default function Resume() {
 											Evaluated new methodologies and technologies aimed at improving the quality, reliability, and performance of product development systems and processes.
 										</li>
 										<li>
-										•	I also helped conducted Requirement gathering and Validation as a part of collaboration for high profile external web app that helped to address important UI/UX parts of the system's user interface before the active Development Phase.
+										•	I also helped conducted Requirement gathering and Validation as a part of collaboration for high profile external web app that helped to address important UI/UX parts of the system&apos;s user interface before the active Development Phase.
 										</li>
 									</ul>
 								</div>

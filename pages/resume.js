@@ -21,7 +21,7 @@ export default function Resume() {
 							</p>
 						</Desc>
 						<a
-							href='https://drive.google.com/file/d/1v7CQmxk4DbYZ1nIWdMrqJhtjeqEG8v2O/view?usp=sharing'
+							href="https://drive.google.com/file/d/1XTpN8c1VHyN85lST9iS8s4efJBzMwZQJ/view?usp=sharing"
 							target='_blank'
 							rel='noopener noreferrer'
 						>

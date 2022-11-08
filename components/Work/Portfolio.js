@@ -69,11 +69,11 @@ const Portfolio = () => {
                 </a>
             </FeatureBody>
             <FeatureBody>
-                <a href="https://www.ienergy-africa.com/" rel="noreferrer" target="_blank" className='feature-item'>
-                    <Card className="light">
-                        <span>Development</span>
-                        <h3 className='bold'>iEnergy Africa</h3>
-                        <Image src="/energy.png" width={700} height={500} alt='iEnergy Africa' />
+                <a href="https://www.figma.com/proto/a773FQXPlYwbCJ3856atIE/AGM?page-id=0%3A1&node-id=37%3A61&viewport=-1733%2C-89%2C0.25&scaling=scale-down-width&starting-point-node-id=37%3A61" rel="noreferrer" target="_blank" className='feature-item'>
+                    <Card className="purple">
+                        <span>UI Design</span>
+                        <h3 className='bold'>My Pocket Wallet Fintech (Krystal Digital)</h3>
+                        <Image src="/my-wallet.png" width={700} height={500} alt='My Pocket Krystal' />
                     </Card>
                 </a>
             </FeatureBody>

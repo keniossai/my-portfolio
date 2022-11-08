@@ -99,8 +99,8 @@ const Portfolio = () => {
                 <a href="https://www.figma.com/proto/Menz1msiJgPH3FwGkA9QfW/L'Oreal-Lotion?page-id=0%3A1&node-id=1%3A3&viewport=482%2C419%2C0.25&scaling=scale-down&starting-point-node-id=1%3A3" rel="noreferrer" target="_blank" className='feature-item'>
                     <Card className="purple">
                         <span>UI Design</span>
-                        <h3 className='bold'>LOreal Lotion Mobile Application</h3>
-                        <Image src="/loreal.png" width={700} height={500} alt='iEnergy Africa' />
+                        <h3 className='bold'>My Pocket Wallet Fintech (Krystal Digital)</h3>
+                        <Image src="/my-wallet.png" width={700} height={500} alt='My Pocket Krystal' />
                     </Card>
                 </a>
             </FeatureBody>

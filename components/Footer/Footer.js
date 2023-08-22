@@ -22,7 +22,7 @@ export const Footer = () => {
                 </LinkLi>
             </Links>
         </FooterTop>
-        <Copyright>&copy; Kenneth Ossai 2022</Copyright>
+        <Copyright>&copy; Kenneth Ossai 2023</Copyright>
     </FooterSec>
   )
 }

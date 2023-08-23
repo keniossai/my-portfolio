@@ -10,7 +10,6 @@ export default function Home() {
         <title>Ken Ossai : Portfolio</title>
         <meta name="description" content="Fullstack Developer: JavaScript, React, Laravel, NextJs, Git" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"></link>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

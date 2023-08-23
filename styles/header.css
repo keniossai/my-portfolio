@@ -1,0 +1,106 @@
+.header{
+    background: #000;
+    height: 5rem;
+    width: 100vw;
+    max-width: 85rem;
+    margin: 0 40px;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+@media screen and (max-width: 480px) {
+    .header{
+        position: fixed;
+        margin: 0 auto;
+    }
+}
+
+.header .logo-icon{
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid rgb(235, 147, 4);
+    padding: 3px 10px;
+    border-radius: 100%;
+    -moz-box-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Oxygen', sans-serif;
+}
+
+.header .ossai{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.desktopMenuItems .ListMenu{
+    margin: 1rem;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.ListMenu:hover{
+    color: rgb(235, 147, 4);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(235, 147, 4);
+    transition: .5s;
+}
+
+
+.desktopButton{
+    position: relative; 
+    display: flex;
+    background: #000;
+    border: 2px solid rgb(235, 147, 4);
+    padding: 12px 35px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+
+.desktopButton::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+.desktopButton:hover::before{
+    transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
+}
+.desktopButton:hover{
+    color: #fff;
+    box-shadow: 0 0 5px #ffee10;
+}
+
+.desktopButton .icon{
+    position: relative;
+    right: 10px;
+    font-size: 20px;
+    align-items: center;
+    color: #fff;
+}

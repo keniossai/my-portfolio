@@ -1,7 +1,7 @@
 import React, { Component, useEffect } from 'react'
 import styled from 'styled-components'
 import Image from 'next/image'
-// import Link from 'next/link'
+import Link from 'next/link'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
@@ -23,99 +23,92 @@ const Portfolio = () => {
       });
     }, [])
     return (
-      <LandingWork>
-          <FadeInTitle>
-              <Title>
-                  My
-                  <br />
-                  Projects -
-              </Title>
-          </FadeInTitle>
-          <Boxes>
-            <FeatureBody>
-                <a href="https://insurancemeetstech.com" rel="noreferrer" target="_blank" className='feature-item'>
-                    <Card className="red">
-                        <span>Development</span>
-                        <h3 className='bold'>Insurance Meets Tech</h3>
-                        <Image src="/imt.png" width={700} height={500} alt='Insurance Meets Tech' />
-                    </Card>
+      <div className="container">
+        <div className="row">
+            <div className="col-md-4">
+                <a href="https://www.figma.com/file/a773FQXPlYwbCJ3856atIE/AGM?type=design&node-id=1767%3A788&mode=design&t=3UNnNQD248MXuSFw-1" rel="noreferrer" target="_blank">
+                    <Image className="portImage" src="/flexi.png" width={600} height={600} alt="" />
+                    <div className="service-card">
+                        <h2>UI/UX Design</h2>
+                        <p>Flexiwallet: Finance Management Web Application</p>
+                    </div>
                 </a>
-            </FeatureBody>
-            <FeatureBody>
-                <a href="https://insidemainland.com/" rel="noreferrer" target="_blank" className='feature-item'>
-                    <Card className="brown">
-                        <span>Development</span>
-                        <h3 className='bold'>Inside Mainland</h3>
-                        <Image src="/inside.png" width={700} height={500} borderRadius={10} alt='Inside Mainland' />
-                    </Card>
+            </div>
+            <div className="col-md-4">
+                <a href="https://www.figma.com/file/T3sRgEezSjQOWXq7b6UkIX/ALG-Project?type=design&node-id=0%3A1&mode=design&t=bMmy4O8dShVzBebS-1" rel="noreferrer" target="_blank">
+                    <Image className="portImage" src="/alg.png" width={600} height={600} alt="" />
+                    <div className="service-card">
+                        <h2>UI/UX Design</h2>
+                        <p>Africa Leadership Group: Web Application</p>
+                    </div>
                 </a>
-            </FeatureBody>
-            <FeatureBody>
-            <a href="https://lagosemploymentsummit.com/" rel="noreferrer" target="_blank" className='feature-item'>
-                    <Card className="white">
-                        <span>Development</span>
-                        <h3 className='bold'>Lagos State Employment Summit</h3>
-                        <Image src="/lsetf.png" width={700} height={500} alt='Lagos Employment Summit' />
-                    </Card>
+            </div>
+            <div className="col-md-4">
+                <a href="https://www.figma.com/file/qsTuKF8WJOGrYKYAmeuCN6/FlexiPay?type=design&node-id=523%3A9114&mode=design&t=lfUM5yeY44csjADt-1" rel="noreferrer" target="_blank">
+                    <Image className="portImage" src="/bill.png" width={600} height={600} alt="" />
+                    <div className="service-card">
+                        <h2>UI/UX Design</h2>
+                        <p>FlexiBillings: Invoice Management System</p>
+                    </div>
                 </a>
-            </FeatureBody>
-            <FeatureBody>
-                <a href="https://mediacomms.africa/" rel="noreferrer" target="_blank" className='feature-item'>
-                    <Card className="ash">
-                        <span>Development</span>
-                        <h3 className='bold'>MediaComms Africa</h3>
-                        <Image src="/med.png" width={700} height={500} alt='MediaComms Africa' />
-                    </Card>
+            </div>
+            <div className="col-md-4">
+                <a href="https://insurancemeetstech.com/" rel="noreferrer" target="_blank">
+                    <Image className="portImage" src="/insure.png" width={500} height={400} alt="" />
+                    <div className="service-card">
+                        <h2>Web Development</h2>
+                        <p>Insurance Meets Tech: Nigeria Insurance Conference Website</p>
+                    </div>
                 </a>
-            </FeatureBody>
-            <FeatureBody>
-                <a href="https://www.figma.com/proto/a773FQXPlYwbCJ3856atIE/AGM?page-id=0%3A1&node-id=37%3A61&viewport=-1733%2C-89%2C0.25&scaling=scale-down-width&starting-point-node-id=37%3A61" rel="noreferrer" target="_blank" className='feature-item'>
-                    <Card className="purple">
-                        <span>UI Design</span>
-                        <h3 className='bold'>My Pocket Wallet Fintech (Krystal Digital)</h3>
-                        <Image src="/my-wallet.png" width={700} height={500} alt='My Pocket Krystal' />
-                    </Card>
+            </div>
+            <div className="col-md-4">
+                <a href="https://mediacomms.africa/" rel="noreferrer" target="_blank">
+                    <Image className="portImage" src="/media.png" width={500} height={400} alt="" />
+                    <div className="service-card">
+                        <h2>Web Development</h2>
+                        <p>MediaComms: Press Community Website</p>
+                    </div>
                 </a>
-            </FeatureBody>
-            <FeatureBody>
-                <a href="https://afex-4z84on244-keniossai.vercel.app/welcome" rel="noreferrer" target="_blank" className='feature-item'>
-                    <Card className="green">
-                        <span>Development</span>
-                        <h3 className='bold'>Afex Dashboard</h3>
-                        <Image src="/afex.png" width={700} height={500} alt='iEnergy Africa' />
-                    </Card>
+            </div>
+            <div className="col-md-4">
+                <a href="https://krystaldigitalng.com/" rel="noreferrer" target="_blank">
+                    <Image className="portImage" src="/krystal.png" width={500} height={400} alt="" />
+                    <div className="service-card">
+                        <h2>Frontend Development</h2>
+                        <p>Krystal Digital Networks: Website</p>
+                    </div>
                 </a>
-            </FeatureBody>
-            <FeatureBody>
-                <a href="https://www.figma.com/proto/vbcHJj7k0HD0My9zYQ1KyH/First-Standard-Insurance-Brokers?page-id=0%3A1&node-id=1%3A2&viewport=261%2C225%2C0.03&scaling=scale-down-width&starting-point-node-id=1%3A2" rel="noreferrer" target="_blank" className='feature-item'>
-                    <Card className="blue">
-                        <span>UI Design</span>
-                        <h3 className='bold'>First Standard Insurance Broker</h3>
-                        <Image src="/fsib.png" width={700} height={500} alt='iEnergy Africa' />
-                    </Card>
+            </div>
+            <div className="col-md-4">
+                <a href="https://agile.krystalng.com" rel="noreferrer" target="_blank" >
+                    <Image className="portImage" src="/agile.png" width={500} height={400} alt="" />
+                    <div className="service-card">
+                        <h2>Web Development</h2>
+                        <p>AGILE Initiatives: Adolescent Girls Initiative for Learning</p>
+                    </div>
                 </a>
-            </FeatureBody>
-            <FeatureBody>
-                <a href="https://www.figma.com/proto/Menz1msiJgPH3FwGkA9QfW/L'Oreal-Lotion?page-id=0%3A1&node-id=1%3A3&viewport=482%2C419%2C0.25&scaling=scale-down&starting-point-node-id=1%3A3" rel="noreferrer" target="_blank" className='feature-item'>
-                    <Card className="purple">
-                        <span>UI Design</span>
-                        <h3 className='bold'>LOreal Lotion Mobile Application</h3>
-                        <Image src="/loreal.png" width={700} height={500} alt='iEnergy Africa' />
-                    </Card>
+            </div>
+            <div className="col-md-4">
+                <a href="https://africaleadershipgroup.org/" rel="noreferrer" target="_blank" >
+                    <Image className="portImage" src="/algweb.png" width={500} height={400} alt="" />
+                    <div className="service-card">
+                        <h2>Web Development</h2>
+                        <p>Africa Leadership Group</p>
+                    </div>
                 </a>
-            </FeatureBody>
-            <FeatureBody>
-                <a href="https://www.figma.com/proto/n8LUiOA595wLjQLa5YjDnJ/Ecommerce-Shopping?page-id=0%3A1&node-id=1%3A65&viewport=508%2C680%2C0.46&scaling=scale-down-width" rel="noreferrer" target="_blank" className='feature-item'>
-                    <Card className="ecom">
-                        <span>UI Design</span>
-                        <h3 className='bold'>Basket Ecommerce Web Application</h3>
-                        <Image src="/ecom.png" width={700} height={500} alt='iEnergy Africa' />
-                    </Card>
+            </div>
+            <div className="col-md-4">
+                <a href="http://modioncommunications.com/" rel="noreferrer" target="_blank" >
+                    <Image className="portImage" src="/modion.png" width={500} height={400} alt="" />
+                    <div className="service-card">
+                        <h2>Web Development</h2>
+                        <p>Modion Communications: Nigeria PR Agency</p>
+                    </div>
                 </a>
-            </FeatureBody>
-          </Boxes>
-         
-      </LandingWork>
+            </div>
+            
+        </div>
+      </div>
     )
   
 }

@@ -5,8 +5,8 @@ export const FindMe = styled.section`
     padding: 90px 60px;
     background: #131419;
 
-    @media screen and (max-width: 350px){
-        padding: 90px 20px;
+    @media screen and (max-width: 360px){
+        padding: 90px 30px;
     }
 `
 export const Title = styled.section`

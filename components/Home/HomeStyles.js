@@ -19,6 +19,11 @@ export const Section = styled.section`
     max-height: 100vh;
     font-family: "Manrope",sans-serif;
 
+    p{
+        font-size: 15px;
+        font-weight: 100;
+    }
+
     @media screen and (max-width: 400px){
         padding: 180px 50px 80px;
         text-align: left;
@@ -93,3 +98,4 @@ export const SideScroll = styled.div`
     position: absolute;
     left: 30px;
 `
+

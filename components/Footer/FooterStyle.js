@@ -82,6 +82,12 @@ export const LinkLi = styled.div`
         color: inherit;
     }
 
+    button{
+        color: #fff;
+        background: transparent;
+        border: none;
+    }
+
     a::after{
         color: #fff;
         position: absolute;

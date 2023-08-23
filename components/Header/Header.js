@@ -2,7 +2,6 @@ import React from 'react'
 import { TiSocialLinkedinCircular } from 'react-icons/ti'
 import { DiGithub } from 'react-icons/di'
 import { Link } from 'react-scroll'
-// import '../../styles/header.css'
 
 const  Header = ({toggle}) => {
   
@@ -45,27 +44,6 @@ const  Header = ({toggle}) => {
                     </div>
                 </div>
             </nav>
-         {/* <nav className="header">
-           <Link className="logo" to="">
-                <span className='logo-icon'>K</span>
-                <span className="ossai">Ossai</span>
-                </Link>
-                <div className="desktopMenuItems">
-                <Link className="ListMenu">Home</Link>
-                <Link className="ListMenu">About</Link>
-                <Link className="ListMenu">Portfolio</Link>
-                <Link className="ListMenu">Clients</Link>
-                </div>
-                <div className="socials">
-                    <span className='desktopButton'>
-                        <TiSocialLinkedinCircular className='linkedIn'  />
-                    </span>
-                    <span className='desktopButton'>
-                        <DiGithub className="gitHub"/>
-                    </span>
-                    
-                </div>
-        </nav>  */}
         </>
     )
 }

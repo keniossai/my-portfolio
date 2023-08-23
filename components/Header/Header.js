@@ -3,6 +3,7 @@ import { TiSocialLinkedinCircular } from 'react-icons/ti'
 import { DiGithub } from 'react-icons/di'
 import { Link } from 'react-scroll'
 
+
 const  Header = ({toggle}) => {
   
     return (

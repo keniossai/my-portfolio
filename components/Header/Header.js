@@ -18,7 +18,7 @@ const  Header = ({toggle}) => {
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <ul className="navbar-nav m-auto mb-2 mb-lg-0">
+                        {/* <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                             <Link className="nav-link ListMenu">Home</Link>
                             </li>
@@ -28,7 +28,7 @@ const  Header = ({toggle}) => {
                             <li className="nav-item">
                             <Link className="nav-link ListMenu">Clients</Link>
                             </li>
-                        </ul>
+                        </ul> */}
                         <div className="socials">
                             <a href="https://www.linkedin.com/in/kenneth-ossai/" rel="noreferrer" target="_blank">
                                 <span className='desktopButton'>
